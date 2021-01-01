@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Clases HTML</title>
+</head>
+<body>
+	<h1>Etiquetas de texto</h1>
+	<h2>Segundo texto</h2>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rhoncus venenatis tellus, in tempor justo tristique eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec lorem turpis, sodales sed fringilla sit amet, condimentum gravida erat. Mauris ac leo vestibulum, tempor odio a, viverra libero. Donec tristique arcu sit amet purus porttitor vehicula. Vestibulum sit amet lacinia lacus. Sed volutpat metus eu metus egestas, ac dapibus nibh lacinia. Sed sapien orci, condimentum sit amet erat eu, suscipit blandit ipsum.<hr/>
+	</p>
+	<h3>Otro encabezado</h3>
+	<p>
+		Suspendisse potenti. <em><strong>Suspendisse blandit posuere velit. Nullam commodo, dui in sollicitudin blandit</strong></em>, elit libero pharetra eros, pellentesque iaculis dolor lorem quis velit. Ut accumsan quis nisl in sagittis. Donec fermentum porttitor felis et feugiat. Maecenas nec lacinia nisi. Aliquam justo tellus, iaculis id lobortis nec, porttitor in libero. Nullam lobortis nec sem vitae hendrerit.<span class = "rojo" id = "resaltado" >Nunc lectus risus</span>, mollis vel ultricies a, ornare vel dolor. Nulla placerat viverra elementum. Class aptent taciti sociosqu ad litora torquent per conubia nostra,<blockquote><i>per inceptos himenaeos</i></blockquote>.<hr/>
+	</p>
+	<h3>Listas</h3>
+	<ol>
+		<li>Mazana</li>
+			<ul>
+				<li>Roja</li>
+				<li>verde</li>
+			</ul>
+		<li>Naranja</li>
+		<li>Pera</li>
+		<li>Sandia</li>
+	</ol>
+
+	<ul>
+		<li>Mazana</li>
+		<li>Naranja</li>
+		<li>Pera</li>
+		<li>Sandia</li>
+	</ul>
+
+	<hr/>
+	<h3>Imagenes en html</h3>
+	<img src = "imagenes/992908.jpg" alt = "Superman" title = "Superman" width="450" />
+
+	<hr/>
+	<h3>Tablas</h3>
+	<!--TABLA -->
+	<table border="1"> <!-- borde de la tabla-->
+		<!--FILA -->
+		<tr> 
+			<!--COLUMNA -->
+			<th>Nombre</th> <!-- th para negrita-->
+			<th>Apellido</th>
+			<th>Pais</th>
+		</tr>
+		<tr> 
+			<!--COLUMNA -->
+			<td>Andres</td> 
+			<td>Petrizzo</td>
+			<td>Argentino</td>
+		</tr>
+	</table>
+
+	<hr>
+	<h3>Formulario</h3>
+
+	<form>
+		<p>
+		<label for="nombre">Nombre</label>
+		<input type="text" name="nombre" placeholder="Ingrese su nombre..." />
+		</p>
+
+		<p>
+		<label for="descripcion">Descripcion</label>
+		<textarea name="descripcion"></textarea>
+		</p>
+
+		<input type="radio" name="genero" value="hombre"> Hombre <br/>
+		<input type="radio" name="genero" value="hombre"> Mujer <br/>
+
+		<select name="generoDos">
+			<option>Hombre</option>
+			<option>Mujer</option>
+		</select>
+
+		<input type="submit" value ="Enviar Formulario"name=""/>
+	</form>
+</body>
+</html>
